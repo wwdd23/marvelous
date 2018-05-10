@@ -16,7 +16,7 @@ echo "bundle installing"
 bundle install
 
 echo "assets"
-RAILS_ENV=production bundle exec rails assets:precompile rails assets:precompile
+RAILS_ENV=production bundle exec rails assets:precompile 
 
 kill -9 `cat /opt/work/marvelous/tmp/pids/unicorn_data.pid` ;  bundle exec unicorn_rails -E production -D -c /opt/work/marvelous/config/unicorn.rb; ps aux |grep unicorn
 
