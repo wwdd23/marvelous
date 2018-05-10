@@ -4032,3 +4032,184 @@ puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
 puma (3.11.4) lib/puma/server.rb:446:in `process_client'
 puma (3.11.4) lib/puma/server.rb:306:in `block in run'
 puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:14:59 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.2ms)
+  Rendered grayscales/_navigation.html.erb (0.2ms)
+  Rendered grayscales/_header.html.erb (0.3ms)
+  Rendered grayscales/_about.html.erb (0.2ms)
+  Rendered grayscales/_footer.html.erb (0.2ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (9.9ms)
+Completed 200 OK in 262ms (Views: 254.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:15:20 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.3ms)
+  Rendered grayscales/_navigation.html.erb (0.2ms)
+  Rendered grayscales/_header.html.erb (0.3ms)
+  Rendered grayscales/_about.html.erb (0.3ms)
+  Rendered grayscales/_contact.html.erb (0.3ms)
+  Rendered grayscales/_footer.html.erb (0.4ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (43.8ms)
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:16:09 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.3ms)
+  Rendered grayscales/_navigation.html.erb (0.7ms)
+  Rendered grayscales/_header.html.erb (0.4ms)
+  Rendered grayscales/_about.html.erb (0.8ms)
+  Rendered grayscales/_contact.html.erb (0.3ms)
+  Rendered grayscales/_footer.html.erb (0.7ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (15.9ms)
+Completed 200 OK in 47ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:19:48 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.3ms)
+  Rendered grayscales/_navigation.html.erb (0.2ms)
+  Rendered grayscales/_header.html.erb (0.5ms)
+  Rendered grayscales/_about.html.erb (0.5ms)
+  Rendered grayscales/_contact.html.erb (0.9ms)
+  Rendered grayscales/_footer.html.erb (1.7ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (20.5ms)
+Completed 200 OK in 70ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:20:13 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.7ms)
+  Rendered grayscales/_navigation.html.erb (0.3ms)
+  Rendered grayscales/_header.html.erb (0.2ms)
+  Rendered grayscales/_about.html.erb (1.0ms)
+  Rendered grayscales/_contact.html.erb (0.3ms)
+  Rendered grayscales/_footer.html.erb (0.3ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (17.5ms)
+Completed 200 OK in 51ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:20:41 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.2ms)
+  Rendered grayscales/_navigation.html.erb (0.2ms)
+  Rendered grayscales/_header.html.erb (0.2ms)
+  Rendered grayscales/_about.html.erb (0.3ms)
+  Rendered grayscales/_contact.html.erb (0.3ms)
+  Rendered grayscales/_footer.html.erb (0.2ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (12.8ms)
+Completed 200 OK in 38ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:21:27 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.2ms)
+  Rendered grayscales/_navigation.html.erb (0.2ms)
+  Rendered grayscales/_header.html.erb (0.2ms)
+  Rendered grayscales/_about.html.erb (0.2ms)
+  Rendered grayscales/_contact.html.erb (0.3ms)
+  Rendered grayscales/_footer.html.erb (0.3ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (11.4ms)
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:21:41 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.3ms)
+  Rendered grayscales/_navigation.html.erb (0.2ms)
+  Rendered grayscales/_header.html.erb (0.3ms)
+  Rendered grayscales/_about.html.erb (0.2ms)
+  Rendered grayscales/_contact.html.erb (0.2ms)
+  Rendered grayscales/_footer.html.erb (0.3ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (13.1ms)
+Completed 200 OK in 33ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:21:57 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.5ms)
+  Rendered grayscales/_navigation.html.erb (0.2ms)
+  Rendered grayscales/_header.html.erb (0.3ms)
+  Rendered grayscales/_about.html.erb (0.2ms)
+  Rendered grayscales/_contact.html.erb (0.2ms)
+  Rendered grayscales/_footer.html.erb (0.2ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (11.8ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:22:11 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.2ms)
+  Rendered grayscales/_navigation.html.erb (0.4ms)
+  Rendered grayscales/_header.html.erb (0.2ms)
+  Rendered grayscales/_about.html.erb (0.2ms)
+  Rendered grayscales/_contact.html.erb (0.2ms)
+  Rendered grayscales/_footer.html.erb (0.3ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (12.5ms)
+Completed 200 OK in 32ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:22:17 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.2ms)
+  Rendered grayscales/_navigation.html.erb (0.4ms)
+  Rendered grayscales/_header.html.erb (0.2ms)
+  Rendered grayscales/_about.html.erb (0.3ms)
+  Rendered grayscales/_contact.html.erb (0.2ms)
+  Rendered grayscales/_footer.html.erb (0.4ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (12.1ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:22:28 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.2ms)
+  Rendered grayscales/_navigation.html.erb (0.2ms)
+  Rendered grayscales/_header.html.erb (0.2ms)
+  Rendered grayscales/_about.html.erb (0.2ms)
+  Rendered grayscales/_contact.html.erb (0.3ms)
+  Rendered grayscales/_footer.html.erb (0.3ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (11.0ms)
+Completed 200 OK in 38ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:22:55 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.5ms)
+  Rendered grayscales/_navigation.html.erb (0.5ms)
+  Rendered grayscales/_header.html.erb (0.4ms)
+  Rendered grayscales/_about.html.erb (0.2ms)
+  Rendered grayscales/_contact.html.erb (0.2ms)
+  Rendered grayscales/_footer.html.erb (0.3ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (12.8ms)
+Completed 200 OK in 39ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 15:23:28 +0800
+Processing by GrayscalesController#index as HTML
+  Rendering grayscales/index.html.erb within layouts/grayscale
+  Rendered grayscales/_shim.html.erb (0.3ms)
+  Rendered grayscales/_navigation.html.erb (1.9ms)
+  Rendered grayscales/_header.html.erb (0.2ms)
+  Rendered grayscales/_about.html.erb (0.2ms)
+  Rendered grayscales/_contact.html.erb (0.2ms)
+  Rendered grayscales/_footer.html.erb (0.2ms)
+  Rendered grayscales/index.html.erb within layouts/grayscale (16.2ms)
+Completed 200 OK in 38ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
