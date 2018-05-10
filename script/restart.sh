@@ -10,13 +10,15 @@ echo "look pid"
 ps aux |grep unicorn
 
 echo "git pull start..."
-git pull; 
+git pull 
+
+echo "bundle installing"
+bundle install
 
 echo "assets"
 rails assets:precompile
 
-echo "bundle installing"
-bundle install; kill -9 `cat /opt/work/marvelous/tmp/pids/marvelous_peach.pid` ;  bundle exec unicorn_rails -E production -D -c /opt/work/marvelous/config/unicorn.rb; ps aux |grep unicorn
+kill -9 `cat /opt/work/marvelous/tmp/pids/marvelous_peach.pid` ;  bundle exec unicorn_rails -E production -D -c /opt/work/marvelous/config/unicorn.rb; ps aux |grep unicorn
 
 
 #god stop simple
