@@ -23,7 +23,9 @@ Rails.application.configure do
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
 
-  #config.assets.paths << Rails.root.join("app", "assets", "fonts")
+
+  config.assets.paths << Rails.root.join("app", "assets", "fonts")
+  config.assets.precompile += %w( .svg .eot .woff .ttf )
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
@@ -45,6 +47,8 @@ Rails.application.configure do
   config.assets.compile = true 
 
 
+  # Disable Rails's static asset server (Apache or nginx will already do this)
+  config.serve_static_assets = false
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
 

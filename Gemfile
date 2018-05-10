@@ -38,6 +38,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails'
 gem 'frontend-generators'
 gem 'unicorn'
+gem 'font-awesome-rails'
+
 
 
 
