@@ -12,7 +12,7 @@ APP_PATH = path.to_s
 # APP_PATH = "/path_to_project/workspace/project_name"
 
 # worker 数
-worker_processes 1
+worker_processes 2
 
 # 项目目录，部署后的项目指向 current，如：/srv/project_name/current
 working_directory APP_PATH 
